@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+body{
+    text-transform: capitalize;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: rgb(206, 225, 241);
+}
+
+.form{
+    width: 500px;
+    background-color: #d6cfcfa9;
+    padding: 0 30px;
+    display: grid;
+    gap: 20px;
+    padding-bottom: 30px;
+    border-radius: 50px;
+    background-color: rgba(10, 172, 221, 0.378);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 20px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+input{
+    width: 440px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0px solid;
+    background-color:  rgb(206, 225, 241);
+}
+
+
+.otpverify{
+    width: 100%;
+    gap: 20px;
+}
+
+.btn{
+    padding: 10px;
+    background-color: #328fdbe4;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 80%;
+    /* position: relative;
+    top: 0px;
+    left: 45px; */
+}
+
+#otp-btn{
+  position: relative;
+  top: 56px;
+  left: -150px;
+  width: 130px;
+}
+
+.buttton{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+.otpverify{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:800px){
+    .form{
+      width: 60%;
+    }
+    input{
+        width: 100%;
+    }
+  }
+  
+  @media screen and (max-width:650px){
+    .form{
+      width: 70%;
+    }
+    input{
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width:500px){
+    .form{
+      width: 80%;
+    }
+    input{
+      width: 95%;
+    }
+  }
+  
+  @media screen and (max-width:350px){
+    .form{
+      width: 90%;
+    }
+    input{
+      width: 100%;
+    }
+    body {
+      min-width: 210px;
+      overflow-x: auto; 
+    }
+
+  }
